@@ -1,0 +1,33 @@
+# Dart 및 Flutter 관련 기본 파일
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+
+# IDE 설정 파일
+.idea/
+*.iml
+.vscode/
+
+# 시스템 파일
+.DS_Store
+Thumbs.db
+
+# 테스트 출력 및 로그
+*.log
+coverage/
+
+# IntelliJ/Android Studio
+*.ipr
+*.iws
+*.idea/
+
+# 특정 운영체제 관련 파일
+*.swp
+*.lock
+*.tmp
+*.temp
+
+# Flutter 패키지 생성시 불필요한 출력 파일
+flutter_export_environment.sh

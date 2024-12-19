@@ -1,0 +1,13 @@
+name: korean_particle
+description: Prepositional particles in Korean for Dart
+version: 0.0.1
+homepage: https://github.com/Geektree0101/korean_particle
+repository: https://github.com/Geektree0101/korean_particle
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
