@@ -12,7 +12,7 @@ dependencies:
 
 ## Usage
 ```Dart
-import 'package:korean_particle/korean_particle.dart
+import 'package:korean_particle/korean_particle.dart';
 
 class KingSejong {
 
