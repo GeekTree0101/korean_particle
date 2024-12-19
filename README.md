@@ -8,7 +8,7 @@ Prepositional particles in Korean for Dart
 dependencies:
   flutter:
     sdk: flutter
-  korean_particle: ^1.0.0
+  korean_particle: ^1.0.2
 ```
 
 ## Usage
