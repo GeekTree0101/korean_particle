@@ -1,6 +1,5 @@
 # korean_particle
-
-<img src="https://github.com/GeekTree0101/korean_particle/blob/main/res/banner.png" />
+<img src="https://raw.githubusercontent.com/GeekTree0101/korean_particle/main/res/banner.png" />
 
 Prepositional particles in Korean for Dart
 
