@@ -35,17 +35,22 @@ extension KoreanParticleExtension on KoreanParticle {
   }
 
   String _replaceValueFrom(String value) {
-    final lastChar = value.codeUnitAt(value.length - 1);
-    bool hasBatchim = (lastChar - 0xAC00) % 28 != 0;
+    final index = value.length - 1;
+    bool hasBatchim = false;
 
-    // non korean case
-    if (lastChar < 0xAC00 || lastChar > 0xD7A3) {
-      hasBatchim = false;
-    }
+    if (index >= 0) {
+      final lastChar = value.codeUnitAt(index);
+      hasBatchim = (lastChar - 0xAC00) % 28 != 0;
 
-    // numberic
-    if (lastChar >= 48 && lastChar <= 57) {
-      hasBatchim = _hasBatchimForNumeric(value[value.length - 1]);
+      // non korean case
+      if (lastChar < 0xAC00 || lastChar > 0xD7A3) {
+        hasBatchim = false;
+      }
+
+      // numberic
+      if (lastChar >= 48 && lastChar <= 57) {
+        hasBatchim = _hasBatchimForNumeric(value[value.length - 1]);
+      }
     }
 
     switch (this) {
