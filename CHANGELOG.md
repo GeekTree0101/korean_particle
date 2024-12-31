@@ -1,3 +1,7 @@
+### [1.0.3] 2024-12-31
+
+- Code unit indexing bug fix
+
 ### [1.0.2] 2024-12-19
 
 - Fix pub.dev readme.md
